@@ -1,5 +1,5 @@
 body {
-    height: 150vh; 
+    height: 170vh; 
     display: flex;
     flex-direction: column; 
     font-family: "Roboto", sans-serif; 
@@ -14,7 +14,6 @@ h1, p, button {
 
 ul {
     list-style-type: none; 
-    text-decoration: none;
     display: flex; 
     margin-left: auto; 
     padding-right: 330px;
@@ -149,7 +148,10 @@ a {
 }
 
 .signup {
-    height: 15vh; 
+    height: 40vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .quote {
@@ -178,4 +180,16 @@ a {
 .quote-attr {
     font-size: 20px; 
     font-weight: 800; 
+}
+
+.signup-box {
+    height: 20vh;
+    width:  70vw; 
+    background-color: #3882F6;
+    display: flex;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
 }
