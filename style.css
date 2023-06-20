@@ -1,6 +1,5 @@
 body {
-    height: 100vh; 
-    width: 100vw; 
+    height: 130vh; 
     display: flex;
     flex-direction: column; 
     font-family: "Roboto", sans-serif; 
@@ -68,9 +67,16 @@ a {
     align-items: center; 
 }
 
-.nav, .hero-sub-text, .hero-image-text {
+.nav, .sub-text, .hero-image-text {
     font-size: 18px; 
     color: #E5E7EB; 
+}
+
+.sub-text-2 {
+    font-size: 18px; 
+    color: grey; 
+    text-align: center; 
+    width: 7vw; 
 }
 
 .hero, .footer {
@@ -108,7 +114,38 @@ a {
 }
 
 .info {
-    height: 15vh; 
+    height: 80vh; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.info-title {
+    font-size: 36px; 
+    font-weight: 800;
+    color: #1F2937; 
+}
+
+.align-box {
+   display: flex; 
+   justify-content: center; 
+   gap: 30px; 
+}
+
+.box1, .box2, .box3, .box4 {
+    height: 20vh;
+    width: 10vw; 
+    border: 4px solid #3882F6; 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.box-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
 }
 
 .signup {
