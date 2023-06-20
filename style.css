@@ -23,7 +23,15 @@ a {
     font-size: 18px; 
 }
 
-.nav {
+.logo-nav {
+    display: flex; 
+}
+
+.hero-main {
+    display: flex; 
+}
+
+.nav, .hero-sub-text, .hero-image-text {
     font-size: 18px; 
     color: #E5E7EB; 
 }
@@ -35,7 +43,14 @@ a {
 
 .hero {
     display: flex; 
-    height: 40vh; 
+    flex-direction: column; 
+    height: 50vh; 
+}
+
+.hero-main-text {
+    font-size: 48px; 
+    font-weight: 800; 
+    color: #F9FAF8; 
 }
 
 .logo {
@@ -56,11 +71,11 @@ a {
 }
 
 .info {
-    height: 20vh; 
+    height: 15vh; 
 }
 
 .signup {
-    height: 20vh; 
+    height: 15vh; 
 }
 
 .quote {
