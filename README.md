@@ -1,1 +1,3 @@
 This project is part of the Odin Project's Foundation Course on CSS. This project has us apply all the knowledge we have learned about Flexbox to create a website design from a provided image. 
+
+UPDATE: Note that I started configuring this while my Google Chrome was zoomed at 80% before realising and so for best intended results it is a good idea to zoom to 80% for this current project. I still have much to learn when it comes to true responsive design. This project focused solely on using Flexbox placement rather than using responsive design elements. 
