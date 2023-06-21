@@ -57,6 +57,17 @@ a {
     background-color: #3882F6; 
 }
 
+.sign-up-2 {
+    width: 6vw;
+    max-height: 30px; 
+    border-radius: 5px;
+    color: white; 
+    border: 1px solid white; 
+    font-weight: 550;
+    padding: 5px; 
+    background-color: #3882F6 ;
+}
+
 .hero-image {
     width: 28vw; 
     height: 15vw; 
@@ -96,12 +107,18 @@ a {
 }
 
 .logo {
-    color: #F9FAF8;
+    color: #F9FAF8; 
     font-size: 24px; 
-    font-weight: bold;  
-    margin: 5px; 
-    padding-left: 320px; 
+    font-weight: bold;
+    margin: 5px;
+    padding-left: 320px;
     padding-top: 10px; 
+}
+
+.action-text {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .footer {
@@ -183,10 +200,14 @@ a {
 }
 
 .signup-box {
-    height: 20vh;
-    width:  70vw; 
+    height: 15vh;
+    width:  65vw; 
     background-color: #3882F6;
     display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 5px; 
+    gap: 100px; 
 }
 
 .signup-text {
