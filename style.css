@@ -121,10 +121,6 @@ a {
     font-weight: bold;
 }
 
-.footer {
-    height: 5vh; 
-}
-
 .info, .signup {
     background-color: white;
 }
@@ -214,3 +210,10 @@ a {
     display: flex;
     flex-direction: column;
 }
+
+.footer {
+    height: 10vh; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+} 
